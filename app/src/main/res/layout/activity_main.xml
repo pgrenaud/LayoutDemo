@@ -60,6 +60,7 @@
                 android:textColor="#EEEEEE"
                 style="@style/TextShadow"
                 android:id="@+id/album_text" />
+
         </RelativeLayout>
 
         <RelativeLayout
@@ -78,6 +79,7 @@
                 android:src="@drawable/ic_repeat_white_24dp"
                 android:background="@android:color/transparent"
                 android:id="@+id/repeat_button" />
+
         </RelativeLayout>
 
         <RelativeLayout
@@ -96,6 +98,7 @@
                 android:src="@drawable/ic_shuffle_white_24dp"
                 android:background="@android:color/transparent"
                 android:id="@+id/shuffle_button" />
+
         </RelativeLayout>
 
     </RelativeLayout>
@@ -132,6 +135,7 @@
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:text="99:99"
             android:id="@+id/duration_text" />
+
     </RelativeLayout>
 
     <LinearLayout
@@ -152,6 +156,7 @@
             android:src="@drawable/ic_skip_previous_black_36dp"
             style="@style/Widget.AppCompat.Button.Borderless"
             android:id="@+id/back_button" />
+
         <ImageButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -159,6 +164,7 @@
             android:src="@drawable/ic_play_arrow_white_36dp"
             style="@style/Widget.AppCompat.Button.Colored"
             android:id="@+id/play_button" />
+
         <ImageButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -166,6 +172,7 @@
             android:src="@drawable/ic_skip_next_black_36dp"
             style="@style/Widget.AppCompat.Button.Borderless"
             android:id="@+id/next_button" />
+
     </LinearLayout>
 
 </RelativeLayout>
